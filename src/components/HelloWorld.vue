@@ -6,6 +6,16 @@
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
+    <h3>PrimeVue Buttons</h3>
+    <!-- Start of PrimeVue buttons. -->
+    <Button label="Primary" class="p-mr-1 p-ml-1" />
+    <Button label="Secondary" class="p-button-secondary p-mr-1 p-ml-1" />
+    <Button label="Success" class="p-button-success p-mr-1 p-ml-1" />
+    <Button label="Info" class="p-button-info p-mr-1 p-ml-1" />
+    <Button label="Warning" class="p-button-warning p-mr-1 p-ml-1" />
+    <Button label="Warning" class="p-button-help p-mr-1 p-ml-1" />
+    <Button label="Danger" class="p-button-danger p-mr-1 p-ml-1" />
+    <!-- End of PrimeVue buttons. -->
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
@@ -35,11 +45,17 @@
 </template>
 
 <script>
+import Button from "primevue/button";
+import "primeflex/primeflex.css";
+
 export default {
   name: 'HelloWorld',
+  components: {
+    Button,
+  },
   props: {
     msg: String
-  }
+  },
 }
 </script>
 

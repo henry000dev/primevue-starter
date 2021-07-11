@@ -1,4 +1,9 @@
-# property-inspector
+# PrimeVue-Starter
+This is a Vue-CLI starter app that shows how to get PrimeVue setup and somewhat customised.
+
+See the [blog post]() for details.
+
+This runs on Vue 3.
 
 ## Project setup
 ```

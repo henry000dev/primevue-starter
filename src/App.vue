@@ -7,8 +7,14 @@
 </template>
 
 <style lang="scss">
+// Uncomment the line below to use a remote font (also update the _theme.scss stylesheet).
+// @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import "~primevue/resources/primevue.min.css";
+@import "./assets/_theme.scss";
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  // Uncomment the line below to use a remote font (also update the _theme.scss stylesheet).
+  // font-family: 'Lobster', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
